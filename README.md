@@ -22,6 +22,11 @@ npm start
 The authentication configuration for Azure AD is located in the `authConfig.js` object.  
 Update these values according to your Azure AD environment.
 
+### Default Authentication Settings
+
+By default, this project is configured with **eunsang1313@gmail.com's 'clientId'**
+It allows sign in from **both work (Azure AD)** and **personal (Microsoft) accounts**.
+
 ### 1) clientId
 This is your application’s **Application (client) ID** in Azure AD.
 
