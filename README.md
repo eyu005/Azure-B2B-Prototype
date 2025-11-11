@@ -19,7 +19,7 @@ npm start
 
 ## Updating Authentication Configuration (clientId, tenantId, authority)
 
-The authentication configuration for Azure AD is located in the `msalConfig` object.  
+The authentication configuration for Azure AD is located in the `authConfig.js` object.  
 Update these values according to your Azure AD environment.
 
 ### 1) clientId
