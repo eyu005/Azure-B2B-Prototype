@@ -1,11 +1,12 @@
-## SFA Application - Azure B2B Login Prototype
+# SFA Application – Azure B2B Login Prototype
 
-A simple Single Page Application demonstrating B2B login via Azure B2B collaboration. 
+A simple Single Page Application demonstrating B2B login using Azure B2B collaboration.
 
 ## Installing Identity and UI Packages
 
-In the project directory, you can run:
+Run the following commands in the project directory to install the required authentication and styling packages:
 
+```bash
 npm install @azure/msal-browser @azure/msal-react
 npm install react-bootstrap bootstrap
 
