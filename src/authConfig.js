@@ -8,7 +8,7 @@ import { LogLevel } from '@azure/msal-browser';
 
  export const msalConfig = {
      auth: {
-         clientId: '70f1a518-50ca-4896-98e1-2cd1c5227094', // This is the ONLY mandatory field that you need to supply.
+         clientId: '61a328df-75bb-40a5-9069-6e0a2ecf6a3d', // This is the ONLY mandatory field that you need to supply.
          authority: 'https://login.microsoftonline.com/common', // Replace the placeholder with your tenant info
          redirectUri: 'http://localhost:3000', // Points to window.location.origin. You must register this URI on Microsoft Entra admin center/App Registration.
          postLogoutRedirectUri: '/', // Indicates the page to navigate after logout.
