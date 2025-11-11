@@ -55,4 +55,15 @@ Update the value:
 authority: 'https://login.microsoftonline.com/common'
 ```
 
+### 3) redirectURL
+
+Must match a Redirect URL registered in Azure Portal -> App registrations -> Authentication.
+
+Local development default:
+
+```javascript
+redirectUri: 'http://localhost:3000'
+```
+
+
 
