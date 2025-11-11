@@ -17,3 +17,20 @@ npm install react-bootstrap bootstrap
 npm start
 ```
 
+## Updating Authentication Configuration (clientId, tenantId, authority)
+
+The authentication configuration for Azure AD is located in the `msalConfig` object.  
+Update these values according to your Azure AD environment.
+
+### ✅ 1) clientId
+This is your application’s **Application (client) ID** in Azure AD.
+
+To find it:
+1. Open **Azure Portal**
+2. Go to **App registrations**
+3. Select your app
+4. Copy **Application (client) ID**
+
+Update the value:
+```javascript
+clientId: 'your-client-id-here'
