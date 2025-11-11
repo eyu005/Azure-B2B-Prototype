@@ -4,19 +4,20 @@ import { Navbar, Button } from 'react-bootstrap';
 
 export const NavigationBar = () => {
     const { instance } = useMsal();
-
+    
     const handleLogoutRedirect = () => {
         instance.logoutRedirect().catch((error) => console.log(error));
     };
 
     return (
         <>
-            <Navbar bg="primary" variant="dark" className="px-4">
+            <Navbar style={{ backgroundColor: 'white' }} variant="light" className="px-4 shadow-sm">
                 <Navbar.Brand href="/">
+                    DeSimone
                 </Navbar.Brand>
                 <AuthenticatedTemplate>
                     <div className="ms-auto">
-                        <Button variant="warning" onClick={handleLogoutRedirect}>
+                        <Button variant="outline-dark" onClick={handleLogoutRedirect}>
                             Sign out
                         </Button>
                     </div>
