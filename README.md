@@ -34,6 +34,7 @@ To find it:
 Update the value:
 ```javascript
 clientId: 'your-client-id-here'
+```
 
 ### 2) tenantId/authority
 The authority defines who can sign in
@@ -44,7 +45,7 @@ Only users from your tenant (and invited guests) can sign in:
 Update the value:
 ```javascript
 authority: 'https://login.microsoftonline.com/<your-tenant-id>'
-
+```
 
 **Option B - Multi-Tenant/B2B Guests**
 Allow users from any Azure AD tenant to sign in:
@@ -52,4 +53,6 @@ Allow users from any Azure AD tenant to sign in:
 Update the value:
 ```javascript
 authority: 'https://login.microsoftonline.com/common'
+```
+
 
